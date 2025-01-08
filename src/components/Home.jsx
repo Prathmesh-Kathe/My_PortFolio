@@ -17,7 +17,7 @@ export default function Home() {
                                 I'm Prathmesh Kathe
                             </span>
                             <span className=" mt-2 text-lg sm:text-4xl lg:text-3xl">
-                                (Full STACK DEVELOPER)
+                                (FULL STACK DEVELOPER)
                             </span>
                             </h2>
                         </div>
