@@ -7,17 +7,17 @@ export default function Footer() {
 
     return (
         <>
-         <Line></Line>
+            <Line></Line>
             <footer className="bg-gray-900 text-gray-400 py-8">
-           
+
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
                     <Link to="/" className="footer__logo">
                         <span
-                            className="bg-contain bg-center block w-16 h-12"
+                            className=" bg-contain bg-center block w-16 h-12"
                             style={{ backgroundImage: "url('https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?auto=compress&cs=tinysrgb&w=600')" }}
                         ></span>
                     </Link>
-                    <ul className="flex items-center gap-6">
+                    <ul className="flex justify-center items-center gap-6 mr-7">
                         {/* Twitter */}
                         <li>
                             <a
@@ -54,42 +54,43 @@ export default function Footer() {
                             </a>
                         </li>
 
-                        {/* Telegram */}
+                        {/* Telegram (commented out) */}
                         {/* <li>
-                            <a
-                                href=""
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-12 h-12 flex items-center justify-center rounded-full border border-transparent bg-transparent hover:bg-white hover:scale-110 hover:rotate-180 transform transition-all duration-300"
-                                title="Telegram"
-                            >
-                                <span
-                                    className="w-6 h-6 bg-contain bg-center block"
-                                    style={{
-                                        backgroundImage: "url('https://ig-launch.test-project.pp.ua/img/telegram.svg')",
-                                    }}
-                                ></span>
-                            </a>
-                        </li> */}
+        <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-transparent bg-transparent hover:bg-white hover:scale-110 hover:rotate-180 transform transition-all duration-300"
+            title="Telegram"
+        >
+            <span
+                className="w-6 h-6 bg-contain bg-center block"
+                style={{
+                    backgroundImage: "url('https://ig-launch.test-project.pp.ua/img/telegram.svg')",
+                }}
+            ></span>
+        </a>
+    </li> */}
 
-                        {/* WhatsApp */}
+                        {/* WhatsApp (commented out) */}
                         {/* <li>
-                            <a
-                                href="555"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="w-12 h-12 flex items-center justify-center rounded-full border border-transparent bg-transparent hover:bg-white hover:scale-110 hover:rotate-180 transform transition-all duration-300"
-                                title="WhatsApp"
-                            >
-                                <span
-                                    className="w-6 h-6 bg-contain bg-center block"
-                                    style={{
-                                        backgroundImage: "url('https://ig-launch.test-project.pp.ua/img/whatsapp.svg')",
-                                    }}
-                                ></span>
-                            </a>
-                        </li> */}
+        <a
+            href="555"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-full border border-transparent bg-transparent hover:bg-white hover:scale-110 hover:rotate-180 transform transition-all duration-300"
+            title="WhatsApp"
+        >
+            <span
+                className="w-6 h-6 bg-contain bg-center block"
+                style={{
+                    backgroundImage: "url('https://ig-launch.test-project.pp.ua/img/whatsapp.svg')",
+                }}
+            ></span>
+        </a>
+    </li> */}
                     </ul>
+
 
                     <button
                         type="button"
@@ -102,7 +103,7 @@ export default function Footer() {
                         ></span>
                     </button>
                 </div>
-                <ul className="flex flex-wrap justify-center gap-4">
+                <ul className="flex flex-wrap justify-center gap-4 mr-10">
                     <li>
                         <Link to="/" className="text-gray-400 hover:text-white transition duration-200">Home</Link>
                     </li>
