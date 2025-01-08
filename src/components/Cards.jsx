@@ -58,7 +58,7 @@ export default function AnimatedCards() {
     },
     {
       id: 1,
-      title: "Pendind...",
+      title: "Pending...",
       description: "Project is under development",
       gradient: "from-green-400 to-teal-500",
       buttonColor: "bg-indigo-500",
