@@ -9,13 +9,20 @@ export default function Home() {
                 <div className="relative z-10 max-w-screen-xl px-4 mx-auto pt-10 pb-20 sm:py-24 sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 space-y-8 text-center sm:text-right sm:ml-auto">
                         {/* Heading */}
-                        <h2 className="text-4xl font-extrabold sm:text-6xl transition-transform duration-300 transform hover:scale-105">
-                            Welcome
-                            <span className="block mt-3 text-3xl text-orange-400 sm:mt-5">
+                        <div className="text-center">
+                            <h2 className="text-3xl font-bold sm:text-5xl lg:text-6xl">
+                                Wel-Come
+                           
+                            <span className="block mt-2 text-xl text-orange-400 sm:mt-4 sm:text-3xl lg:text-4xl">
                                 I'm Prathmesh Kathe
                             </span>
-                            <span className="block mt-3 text-3xl">(MERN STACK DEVELOPER)</span>
-                        </h2>
+                            <span className=" mt-2 text-lg sm:text-4xl lg:text-3xl">
+                                (Full STACK DEVELOPER)
+                            </span>
+                            </h2>
+                        </div>
+
+
 
                         {/* Call-to-Action */}
                         <div className="space-y-4 ">
@@ -54,7 +61,7 @@ export default function Home() {
 
 
             {/* Technical Skills Section */}
-            
+
             <h1 className="py-10 text-2xl text-white font-medium text-center sm:text-5xl  "><strong>Technical Skills</strong></h1>
             <div className="relative overflow-hidden  bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700">
                 <div className="flex space-x-6 animate-marquee">
